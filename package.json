@@ -1,0 +1,31 @@
+{
+  "name": "vnnative3-location-device",
+  "version": "1.0.0",
+  "description": "Vn native plugins",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-location-device.git"
+  },
+  "keywords": [
+    "vnnative",
+    "vnnative3",
+    "vnf3"
+  ],
+  "author": "steve lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-location-device/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-location-device#readme",
+  "dependencies": {
+    "typescript": "^4.5.5",
+    "vnnative-3-os": "^1.0.0"
+  }
+}
